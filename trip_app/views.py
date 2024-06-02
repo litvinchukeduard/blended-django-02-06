@@ -7,8 +7,8 @@ def main(request):
     messages = []
     if request.user.is_authenticated:
         messages_from_user = list(Message.objects(sender_id=request.user.id))
-        # messages_to_user = list(Message.objects(receiver_id=request.user.id))
-        messages = messages_from_user #+ messages_to_user
+        messages_to_user = list(Message.objects(receiver_id=request.user.id))
+        messages = messages_from_user + messages_to_user
 
         for message in messages:
             user_id = message.sender_id

@@ -1,7 +1,19 @@
 from django.shortcuts import redirect, render
 from django.contrib.auth import authenticate, login, logout
 
-from users.forms import LoginForm
+from users.forms import LoginForm, UserCreationForm, RegisterForm
+
+def signup(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+        print(form.error_messages)
+        return redirect('trip_app:main')
+    else:
+        form = RegisterForm()
+        return render(request, 'signup.html', context={'form': form})
+    
 
 def loginuser(request):
     if request.method == 'POST':
