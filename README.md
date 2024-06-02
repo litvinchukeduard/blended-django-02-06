@@ -9,3 +9,7 @@
 Використовувати Mongo для збереження профілю користувача (user_id, bio, interests, travel_history) та повідомлень (sender_id, receiver_id, message_content, timestamp)
 
 https://cheatography.com/lewiseason/cheat-sheets/django-models/
+
+https://realpython.com/introduction-to-mongodb-and-python/
+
+https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/

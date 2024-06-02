@@ -1,0 +1,33 @@
+[
+    {
+      "sender_id": 1,
+      "receiver_id": 2,
+      "message_content": "Hey, how are you?",
+      "timestamp": "2024-06-02T10:15:00"
+    },
+    {
+      "sender_id": 2,
+      "receiver_id": 1,
+      "message_content": "I'm good, thanks! How about you?",
+      "timestamp": "2024-06-02T10:20:00"
+    },
+    {
+      "sender_id": 1,
+      "receiver_id": 2,
+      "message_content": "I'm doing well too. Just catching up on some work.",
+      "timestamp": "2024-06-02T10:25:00"
+    },
+    {
+      "sender_id": 2,
+      "receiver_id": 1,
+      "message_content": "That sounds productive. I've been working on a project as well.",
+      "timestamp": "2024-06-02T10:30:00"
+    },
+    {
+      "sender_id": 1,
+      "receiver_id": 2,
+      "message_content": "Nice! What project are you working on?",
+      "timestamp": "2024-06-02T10:35:00"
+    }
+  ]
+  
