@@ -13,3 +13,9 @@ https://cheatography.com/lewiseason/cheat-sheets/django-models/
 https://realpython.com/introduction-to-mongodb-and-python/
 
 https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/
+
+https://docs.djangoproject.com/en/5.0/ref/forms/fields/
+
+https://docs.djangoproject.com/en/5.0/ref/forms/widgets/
+
+https://docs.djangoproject.com/en/5.0/ref/templates/language/

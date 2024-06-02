@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Trip: Main page</title>
+{% endblock %}
+
+{% block content %}
+Hello!
+
+{% for message in messages %}
+    <p>{{ message.message_content }}</p>
+    <p>{{ message.timestamp }}</p>
+    <p>{{message.user.username}}</p>
+    <br>
+{% endfor %}
+
+{% endblock %}
