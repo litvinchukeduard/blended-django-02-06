@@ -7,3 +7,5 @@
 Використовувати Postgres для зберігання користувачів (id, name, email, password, preferences), подорожей (id, user_id, trip_name, start_date, end_date, destination), друзів (user_id, friend_id) та відгуків (id, user_id, destination, rating)
 
 Використовувати Mongo для збереження профілю користувача (user_id, bio, interests, travel_history) та повідомлень (sender_id, receiver_id, message_content, timestamp)
+
+https://cheatography.com/lewiseason/cheat-sheets/django-models/
